@@ -1,0 +1,47 @@
+epoch     train_loss  valid_loss  accuracy  time    
+Traceback (most recent call last):
+  File "/home/gobind/miniconda3/lib/python3.7/multiprocessing/queues.py", line 242, in _feed
+    send_bytes(obj)
+  File "/home/gobind/miniconda3/lib/python3.7/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home/gobind/miniconda3/lib/python3.7/multiprocessing/connection.py", line 404, in _send_bytes
+  File "/home/gobind/miniconda3/lib/python3.7/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+0         9.463064    #na#        00:05     
+LR Finder is complete, type {learner_name}.recorder.plot() to see the graph.
+Min numerical gradient: 1.20E-03
+Min loss divided by 10: 4.37E-04
+epoch     train_loss  valid_loss  accuracy  time    
+/home/gobind/miniconda3/lib/python3.7/site-packages/fastai/sixel.py:16: UserWarning: You could see this plot with `libsixel`. See https://github.com/saitoha/libsixel
+  warn("You could see this plot with `libsixel`. See https://github.com/saitoha/libsixel")
+0         1.722705    1.661625    0.396700  00:17     
+1         1.495403    1.541923    0.447900  00:17     
+2         1.379812    1.419124    0.490500  00:17     
+3         1.277705    1.307564    0.534800  00:17     
+4         1.152364    1.314629    0.536700  00:17     
+5         1.082965    1.303241    0.547700  00:15     
+6         0.976028    1.345417    0.559000  00:17     
+7         0.906803    1.124362    0.617100  00:17     
+8         0.810486    1.159428    0.605500  00:17     
+9         0.672522    1.223990    0.613400  00:17     
+10        0.551079    1.261166    0.618400  00:17     
+11        0.445018    1.461814    0.615300  00:17     
+12        0.350844    1.468998    0.624000  00:17     
+13        0.261020    1.574809    0.633800  00:17     
+14        0.201982    1.742497    0.626200  00:17     
+15        0.151484    1.849140    0.627300  00:17     
+16        0.115640    1.928596    0.640300  00:17     
+17        0.097284    2.032669    0.635500  00:17     
+18        0.067343    2.109574    0.636300  00:17     
+19        0.049705    2.287521    0.636100  00:17     
+20        0.032161    2.338260    0.645000  00:17     
+21        0.022008    2.372468    0.650000  00:18     
+22        0.014670    2.537594    0.646800  00:17     
+23        0.008765    2.561437    0.655900  00:17     
+24        0.005705    2.693802    0.649400  00:17     
+25        0.002310    2.687179    0.654400  00:17     
+26        0.000626    2.710832    0.657800  00:17     
+27        0.000508    2.760537    0.659400  00:17     
+28        0.000343    2.753596    0.658600  00:17     
+29        0.000283    2.779103    0.657600  00:17     
